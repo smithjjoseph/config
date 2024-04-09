@@ -1,0 +1,107 @@
+{
+    // Theme/editor settings
+    "workbench.colorTheme": "Default Dark+",
+    "files.autoSave": "onFocusChange",
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1,
+    "editor.fontSize": 17,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    // Make Cascadia Code the primary font (if available) and below enable multisymbol character interactions ***
+    "editor.fontFamily": "'Cascadia Code', 'Roboto-mono', Consolas, 'Courier New', monospace",
+    //"editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+
+    "terminal.integrated.fontSize": 16.5,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+
+    // Language specific ruler settings
+    "[git-commit]": {
+        "editor.rulers": [50]
+    },
+    "[python]": {
+        "editor.rulers": [79, 120],
+        "editor.formatOnType": true
+    },
+    "[shellscript]": {
+        "editor.rulers": [120]
+    },
+    "[cpp]": {
+        "editor.rulers": [80, 120]
+    },
+
+    // Special keywords for extension: TODO Highlight (v2)
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO::",
+            "color": "black",
+            "isWholeLine": true
+        },
+        {
+            "text": "LIMIT::",
+            "color": "black",
+            "backgroundColor": "rgba(255,128,0,255)",
+            "isWholeLine": true
+        },
+        {
+            "text": "WARNING::",
+            "color": "black",
+            "backgroundColor": "rgba(255,0,0,255)",
+            "isWholeLine": true
+        },
+        {
+            "text": "MARKER::",
+            "color": "black",
+            "backgroundColor": "rgba(0,255,0,255)",
+            "isWholeLine": true
+        },
+        {
+            "text": "NOTE::",
+            "color": "black",
+            "backgroundColor": "rgba(0,255,255,255)",
+            "isWholeLine": true
+        },
+        {//complete
+            "text": "[x]",
+            "color": "black",
+            "backgroundColor": "rgba(0,255,0,255)"
+        },
+        {//blocked
+            "text": "[-]",
+            "color": "black",
+            "backgroundColor": "rgba(255,0,0,255)"
+        },
+        {//Tentative
+            "text": "[?]",
+            "color": "black",
+            "backgroundColor": "rgba(128,128,128,255)"
+        },
+        {//Working
+            "text": "[=]",
+            "color": "black",
+            "backgroundColor": "rgba(255,128,0,255)"
+        }
+    ],
+
+    // Settings for autoDocstring - Python Docstring Generator
+    "autoDocstring.docstringFormat": "sphinx",
+    "autoDocstring.quoteStyle": "\"\"\"",
+
+    // Settings for vscode-icons
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+
+    // Settings for Discord Rich Presence
+    "vscord.app.name": "Visual Studio Code",
+
+    // Other various settings
+    "python.defaultInterpreterPath": "C:\\Python311\\python.exe",
+    "nasm.outputFormat": "elf64",
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "cmake.configureOnOpen": true,
+    "groovyLint.basic.loglevel": "warning",
+    "gitlens.currentLine.enabled": true,
+    "svg.preview.mode": "img",
+    "redhat.telemetry.enabled": false
+}

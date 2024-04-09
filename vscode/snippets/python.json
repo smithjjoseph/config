@@ -1,0 +1,34 @@
+{
+	"Top-Level Docstring": {
+		"prefix": ["topdoc", "doctop", "filedoc"],
+		"body": ["#!/usr/bin/python3",
+				 "\"\"\"!",
+				 "@file\t${1:filename}.py",
+				 "@brief\t${2:file description}",
+				 "@author\tJoseph Smith",
+				 "\"\"\""],
+		"description": "Creates a top-level docstring"
+	},
+	"Doxygen Function Docstring": {
+		"prefix": ["doxyfunc", "\"\"\"!"],
+		"body": ["\"\"\"!${1:method description}",
+				 "",
+				 "@param\t${2:name} ${3:type}\t${4:description}",
+				 "",
+				 "@return\t${5:type}\t${6:description}",
+				 "\"\"\""],
+		"description": "Creates a method level doxygen multi-line comment"
+	},
+	"Create main block": {
+		"prefix": ["main", "namemain", "__name__==main"],
+		"body": ["if __name__ == '__main__':",
+					"\t${1:...}"],
+		"description": "Creates a main block"
+	},
+	"Class initialiser": {
+		"prefix": ["init", "__init__"],
+		"body": ["def __init__(self, ${1:args}):",
+					"\t${2:...}"],
+		"description": "Creates an initialser method for a class"
+	},
+}
