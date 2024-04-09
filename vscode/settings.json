@@ -3,7 +3,6 @@
     "workbench.colorTheme": "Default Dark+",
     "files.autoSave": "onFocusChange",
     "explorer.confirmDelete": false,
-    "window.zoomLevel": 1,
     "editor.fontSize": 17,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
@@ -92,16 +91,5 @@
     "vsicons.dontShowNewVersionMessage": true,
 
     // Settings for Discord Rich Presence
-    "vscord.app.name": "Visual Studio Code",
-
-    // Other various settings
-    "python.defaultInterpreterPath": "C:\\Python311\\python.exe",
-    "nasm.outputFormat": "elf64",
-    "code-runner.runInTerminal": true,
-    "code-runner.saveFileBeforeRun": true,
-    "cmake.configureOnOpen": true,
-    "groovyLint.basic.loglevel": "warning",
-    "gitlens.currentLine.enabled": true,
-    "svg.preview.mode": "img",
-    "redhat.telemetry.enabled": false
+    "vscord.app.name": "Visual Studio Code"
 }
