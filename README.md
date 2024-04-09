@@ -31,11 +31,7 @@ git pull origin master
 
 ---
 
-As of git 2.25.0 a sparse-checkout command has been added to git:
-
-- Create repo and apply config:
-
-`git sparse-checkout init`
+As of git 2.25.0 a sparse-checkout command has been added to git replacing steps 2 and 3:
 
 - Add folders to be checked out:
 
