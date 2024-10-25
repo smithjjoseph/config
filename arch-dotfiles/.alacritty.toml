@@ -1,0 +1,20 @@
+# Requirements: Bash, CascadiaCode
+
+[terminal.shell]
+program = "/bin/bash"
+
+[window]
+dimensions = { columns = 80, lines = 24 }
+decorations = "Full"
+
+[font]
+normal = { family = "CascadiaCode", style="regular" }
+bold = { family = "CascadiaCode", style="bold" }
+italic = { family = "CascadiaCode", style="italic" }
+bold_italic = { family = "CascadiaCode", style="bold italic" }
+size = 10
+
+[cursor]
+style = { shape = "Beam", blinking = "Always" }
+
+[terminal]
