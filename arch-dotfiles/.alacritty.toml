@@ -1,20 +1,29 @@
-# Requirements: Bash, CascadiaCode
+# Requirements: Bash, JetBrainsMono Nerd Font
+
+[cursor.style]
+blinking = "Always"
+shape = "Beam"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal = {family = "JetBrainsMono Nerd Font", style="Regular"}
+bold = {family = "JetBrainsMono Nerd Font", style="Bold"}
+italic = {family = "JetBrainsMono Nerd Font", style="Italic"}
+size = 10
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
 
 [terminal.shell]
 program = "/bin/bash"
 
 [window]
-dimensions = { columns = 80, lines = 24 }
+dimensions = {columns = 80, lines = 24}
 decorations = "Full"
-
-[font]
-normal = { family = "CascadiaCode", style="regular" }
-bold = { family = "CascadiaCode", style="bold" }
-italic = { family = "CascadiaCode", style="italic" }
-bold_italic = { family = "CascadiaCode", style="bold italic" }
-size = 10
-
-[cursor]
-style = { shape = "Beam", blinking = "Always" }
-
-[terminal]
+padding = {x=2, y=2}
