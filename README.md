@@ -2,7 +2,8 @@
 
 ## Contents
 - [Sparse Checkout](#sparse-checkout)
-- [Dotfiles & Stow](#dotfiles--stow)
+- [Stow & Dotfiles](#stow--dotfiles)
+- [Arch Dotfiles](#arch-dotfiles)
 
 ## Sparse Checkout
 
@@ -46,7 +47,7 @@ git sparse-checkout set "dir3/file.txt"
 git read-tree -mu HEAD
 ```
 
-## Dotfiles & Stow
+## Stow & Dotfiles
 
 The strategy for handling configuration dotfiles is to 
 1. Have a directory for each OS configuration
@@ -68,3 +69,14 @@ stow -t ~ .
 
 - To unstow a package use: `stow --delete [PACKAGE_NAME]`
 - To restow (unstow then stow again) use: `stow --restow [PACKAGE_NAME]`
+
+## Arch Dotfiles
+
+### Included Configs & Requirements
+
+| Category | Config | Requirements |
+| -------- | ------ | ------------ |
+| Shell | Bash | bash |
+| Terminal | Alacritty | alacritty<br>ttf-jetbrains-mono-nerd |
+| Prompt Theme | Oh My Posh | oh-my-posh |
+| Fetch | Fastfetch | fastfetch |
